@@ -60,13 +60,6 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <a
-            class="website"
-            href="https://frontenddevelopment.tech/"
-            target="_blank"
-          >
-            www.frontenddevelopment.tech
-          </a>
           <Header />
           <AddTodo addTodo={this.addTodo} />
           <Todos
